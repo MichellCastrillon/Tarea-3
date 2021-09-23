@@ -1,0 +1,120 @@
+.claseDiv {
+    margin: auto;
+    margin-top: 20px;
+    padding: 20px 20px;
+    text-align: justify;
+    width: 500px;
+    height: 420px;
+    background-color: tomato;
+}
+
+body {
+    background: #2193b0;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #6dd5ed, #2193b0);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #6dd5ed, #2193b0);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: white;
+}
+.logo {
+    width: 90px;
+    cursor: pointer;
+}
+
+li {
+    /*Para que se quite el estilo de lista con los numeros*/
+    list-style: none;
+    /*para que pase de estar vertical la lista y se ponga vertical*/
+    display: inline-block;
+    /*separación entre elementos del nav*/
+    padding: 0px 20px;
+}
+
+li a {
+    text-decoration: none;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 800;
+    color: white;
+}
+
+a:hover {
+    color: black;
+}
+.titulo1{
+    color: black;
+}
+.titulotexto{
+    color: black;
+    text-align: center;
+}
+.media{
+    width: 600px;
+    height: 390px;
+    margin-left: 380px;
+}
+.media .tituloa{
+    text-align: center;
+}
+.media .contenedor2{
+    margin-left: 100px;
+}
+#videom{
+    width:400px;
+    height: 300px;
+}
+footer{
+    margin:0px 20px;
+    padding: 10px 10px;
+}
+
+/*Style para formulario*/
+
+.contenedorform{
+    padding: 10px;
+    width: 300px;
+    height: 500px;
+    background-color: white;
+    margin: auto;
+    margin-top: 50px;
+    color: black;
+}
+.contenedorform h1{
+    text-align: center  ;
+}
+
+/*Style página de viajes*/
+
+.contenedorv{
+    background: #2193b0;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #6dd5ed, #2193b0);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #6dd5ed, #2193b0);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: white;
+}
+.contenedorv h1{
+    color: white;
+    text-align: center;
+}
+.contenedorim #machu{
+    margin: 20px 100px;
+    padding: 10px;
+    width: 500px;
+    height: 500px;
+}
+.contenedorim #laguna{
+    margin: 20px;
+    padding: 10px;
+    width: 500px;
+    height: 500px;
+}
+.contenedorim #vidmachu{
+    margin: 20px;
+    margin-left: 450px;
+    padding: 10px;
+    width: 500px;
+    height: 400px;
+}
